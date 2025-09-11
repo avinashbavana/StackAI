@@ -16,7 +16,7 @@ const Navbar = () => {
       <img
         src={assets.stackAI_logo}
         alt="logo"
-        className="h-16 bg:[ffffffo] sm:w-44 cursor-pointer"
+        className="max-w-44 px-8 mt-3 sm:w-44 min-h-14 flex items-center justify-between"
         onClick={() => navigate("/")}
       />
 

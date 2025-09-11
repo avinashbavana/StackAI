@@ -31,12 +31,6 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="text-center mt-30">
-        <h3 className="text-slate-700 text-[42px]">Loved by Creators</h3>
-        <p className="text-gray-400 mt-1 text-small">
-          Dont just take our word for it.Here's what our users are saying.
-        </p>
-      </div>
       <div>
         <div className="px-4 sm:px-20 xl:px-32 py-24">
           <div className="text-center">
