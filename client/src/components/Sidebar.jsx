@@ -68,7 +68,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
         <div onClick={openUserProfile} className="flex items-center cursor-pointer">
           <img src={user.imageUrl} alt='user avatar' className="w-8 rounded-full"/>
           <div className="">
-            <h1 className="text-sm font-medium p-3">{user.fullName}</h1>
+            <h1 className="text-sm font-medium mt-3 p-3">{user.fullName}</h1>
             <p className="text-xs text-[#cc9f00]">
               <Protect plan='premium' fallback="Free">Premium</Protect>
             </p>
